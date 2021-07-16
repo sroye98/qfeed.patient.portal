@@ -6,6 +6,6 @@ const Submission = (props) => {
             <Result title="Are you satisfied with your testimonial?" />
         </div>
     );
-}
+};
 
 export default Submission;

@@ -23,6 +23,6 @@ const Application = (props) => {
             </Footer>
         </Layout>
     );
-}
+};
 
 export default Application;

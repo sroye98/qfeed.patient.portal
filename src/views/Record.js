@@ -28,6 +28,6 @@ const Record = (props) => {
             </ol>
         </div>
     );
-}
+};
 
 export default Record;

@@ -79,6 +79,6 @@ const StepNavigation = (props) => {
             </div>
         </>
     );
-}
+};
 
 export default StepNavigation;

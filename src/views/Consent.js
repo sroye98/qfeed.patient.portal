@@ -8,6 +8,6 @@ const Consent = (props) => {
             <Skeleton active={true} paragraph={{ rows: 10 }} />
         </div>
     );
-}
+};
 
 export default Consent;

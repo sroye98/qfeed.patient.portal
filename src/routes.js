@@ -10,6 +10,6 @@ const Routes = (props) => {
             <Route exact path="/confirmation" component={Confirmation} />
         </Switch>
     );
-}
+};
 
 export default Routes;

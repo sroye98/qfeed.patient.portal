@@ -8,6 +8,6 @@ const Confirmation = (props) => {
             subTitle="Keep a watch out on your social media for your mention on Practice Name"
         />
     );
-}
+};
 
 export default Confirmation;
