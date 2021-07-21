@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { Steps, Button } from 'antd';
 
-import Record from './Record';
+import QuestionOne from './Q1';
+import QuestionTwo from './Q2';
+import QuestionThree from './Q3';
 import Consent from './Consent';
 import Submission from './Submission';
 
@@ -10,13 +12,19 @@ const { Step } = Steps;
 
 const steps = [
     {
-      title: 'Record',
+        title: 'Question #1',
     },
     {
-      title: 'Consent',
+        title: 'Question #2',
     },
     {
-      title: 'Submission',
+        title: 'Question #3',
+    },
+    {
+        title: 'Consent',
+    },
+    {
+        title: 'Submission',
     },
   ];
 
@@ -39,12 +47,16 @@ const StepNavigation = (props) => {
     const renderSteps = () => {
         switch (steps[current].title)
         {
-            case 'Record':
-                return <Record />
+            case 'Question #1':
+                return <QuestionOne />;
+            case 'Question #2':
+                return <QuestionTwo />;
+            case 'Question #3':
+                return <QuestionThree />;
             case 'Consent':
-                return <Consent />
+                return <Consent />;
             case 'Submission':
-                return <Submission />
+                return <Submission />;
             default:
                 return <></>
         }
